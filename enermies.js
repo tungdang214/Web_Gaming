@@ -3,7 +3,7 @@ class zombie {
     constructor(game, x, y) {
         Object.assign(this,{game, x, y});
         //spritesheet
-        this.spritesheet = ASSET_MANAGER.getAsset("./Sprites/zombies.png");
+        this.spritesheet = ASSET_MANAGER.getAsset("./sprites/zombies.png");
 
         // zombie state variable
         this.facing = 0; // 0 = right, 1 == left
