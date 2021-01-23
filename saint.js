@@ -1,4 +1,6 @@
 //sant brother
 class saint {
-    constructor
-}
+    constructor() {
+
+    };
+};
